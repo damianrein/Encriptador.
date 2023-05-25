@@ -17,7 +17,6 @@ function encriptar() {
     textoEncriptado = textoEncriptado.replace(/u/g, 'ufat');
     
     document.querySelector("#tex2").value = textoEncriptado;
-
     resultado.innerHTML = textoEncriptado;
   }
 
@@ -31,7 +30,6 @@ function encriptar() {
     textoEncriptado = textoEncriptado.replace(/ufat/g, 'u');
     
     document.querySelector("#tex2").value = textoEncriptado;
-
     resultado.innerHTML = textoDesencriptado;
   }
 
